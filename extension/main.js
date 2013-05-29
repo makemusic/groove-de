@@ -12,7 +12,7 @@ function groove_de_remove_timers(){
   }
 }
 // dont run on googleCallback.php
-if(!groove_de_run && window.location.pathname.indexOf('googleCallback.php') == -1){
+if (!groove_de_run && window.location.pathname.indexOf('googleCallback.php') == -1){
   var groove_de_run = true;
   groove_de_set_body('loading...');
   groove_de_remove_timers();
